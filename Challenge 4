@@ -14,7 +14,7 @@
 # Busca el archivo real número 33 (de todos los archivos reales, el 33º en orden de apareción) y envía su checksum con submit
 
 from pathlib import Path
-checksum = open("C:/Users/raito/Desktop/Curso Python/Retos codember/checksum.txt", "r")
+checksum = open("ruta al archivo", "r")
 diccionario = dict()
 contador = 0
 lista_keys = []
