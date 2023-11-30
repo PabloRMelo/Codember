@@ -1,0 +1,17 @@
+# "#" Incrementa el valor numérico en 1.
+# "@" Decrementa el valor numérico en 1.
+# "*" Multiplica el valor numérico por sí mismo.
+# "&" Imprime el valor numérico actual.
+
+str = "&###@&*&###@@##@##&######@@#####@#@#@#@##@@@@@@@@@@@@@@@*&&@@@@@@@@@####@@@@@@@@@#########&#&##@@##@@##@@##@@##@@##@@##@@##@@##@@##@@##@@##@@##@@##@@##@@&"
+valor = 0
+for x in str:
+    if x == "#":
+        valor += 1
+    elif x == "@":
+        valor -= 1
+    elif x == "*":
+        valor *= valor
+    elif x == "&":
+        print(valor, end="")
+    
